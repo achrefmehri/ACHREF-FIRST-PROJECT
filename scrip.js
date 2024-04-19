@@ -47,7 +47,7 @@ $('.container').hide()
 $('.start').on('click',function(){
  
     $('.quest').html(`<h2 id="question">${quest[0].question}</h2>`)
-    $('.mylist').html(`<li><input type="radio" class="checkbox" value="">${quest[0].a}</li><li><input type="radio" class="checkbox" value="">${quest[0].b}</li><li><input type="radio" class="checkbox" value="">${quest[0].c}</li><li><input type="radio" class="checkbox" value="">${quest[0].d}</li>`)
+    $('.mylist').html(`<li><input type="radio" class="checkbox" value="${quest[0].a}">${quest[0].a}</li><li><input type="radio" class="checkbox" value="">${quest[0].b}</li><li><input type="radio" class="checkbox" value="">${quest[0].c}</li><li><input type="radio" class="checkbox" value="">${quest[0].d}</li>`)
     $('.next').show()
     $('.start').hide()
     $('.disp').hide()
@@ -62,9 +62,16 @@ $('.next').on('click',function(){
         $('.msg').show()
     }
     $('.quest').html(`<h2 id="question">${quest[count].question}</h2>`)
-$('.mylist').html(`<li><input type="radio" name="ans" class="checkbox" value="${quest[count].a}">${quest[count].a}</li><li><input type="radio" name="ans" class="checkbox" value="${quest[count].b}">${quest[count].b}</li><li><input type="radio" name="ans" class="checkbox" value="${quest[count].c}">${quest[count].c}</li><li><input type="radio" name="ans" class="checkbox" value="${quest[count].d}">${quest[count].d}</li>`)
-    
+$('.mylist').html(`<li><input id='1' type="radio" name="ans" class="checkbox" value="${quest[count].a}">${quest[count].a}</li><li><input id='2' type="radio" name="ans" class="checkbox" value="${quest[count].b}">${quest[count].b}</li><li><input id='3' type="radio" name="ans" class="checkbox" value="${quest[count].c}">${quest[count].c}</li><li><input id ='4' type="radio" name="ans" class="checkbox" value="${quest[count].d}">${quest[count].d}</li>`)
+
 })
+$('.ans').on('click',function(){
+    alert(`The answer is: ${quest[count].theanswer}`)
+})
+
+
+
+
 
 
 
