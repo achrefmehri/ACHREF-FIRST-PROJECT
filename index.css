@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    
+}
+body{
+    background-color: palevioletred;
+
+}
+h1{
+    font-size: 80px;
+    margin-left: 30%;
+    margin-top: 30px;
+    color: aliceblue;
+
+
+}
+.start{
+    height: 80px;
+    width: 180px;
+    margin-left: 41%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.container{
+    height: 320px;
+    width: 500px;
+    background-color: aliceblue;
+  
+    margin-left: 29%;
+    border-radius: 20px;
+}
+.quest{
+    font-size: 20px;
+    text-align: center;
+}
+.next{
+    height: 80px;
+    width: 180px;
+    margin-left: 34%;
+    margin-top: 17px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.mylist{
+    list-style: none;
+    margin-left: 4%;
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.checkbox{
+    height: 20px;
+    width: 20px;
+    margin: 15px;
+}
+.mess{
+margin-left: 21%;
+font-size: 30px;
+color: aliceblue;
+}
+.goodb{
+    width: 470px;
+    margin-left: 29%;
+
+}
+.disp{
+    margin-left: 34%;
+    color: aliceblue;
+    
+}
+
+
